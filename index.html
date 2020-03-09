@@ -16,6 +16,15 @@
   });
 </script>
 </head>
+  <script src="https://web-chat.global.assistant.watson.cloud.ibm.com/loadWatsonAssistantChat.js"></script>
+<script>
+  window.loadWatsonAssistantChat({
+    integrationID: "e615a8e1-eede-4b8e-b256-eed0804acaf6", // The ID of this integration.
+    region: "us-east" // The region your integration is hosted in.
+  }).then(function(instance){
+    instance.render();
+  });
+</script>
 <body>
 <html data-wf-site="528e651363ab10ec42000100" class="wf-lato-n1-active wf-lato-n3-active wf-lato-n4-active wf-lato-n7-active wf-lato-n9-active wf-daysone-n4-active wf-active"><head>
   <meta charset="utf-8">
